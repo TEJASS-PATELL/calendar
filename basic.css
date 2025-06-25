@@ -26,6 +26,7 @@ body {
 }
 
 .calendar-header h2 {
+    letter-spacing: 1.5px;
   font-size: 2rem;     /* Bigger text */
   margin: 0;
 }
@@ -34,14 +35,14 @@ button {
   padding: 12px 18px;   /* Bigger buttons */
   font-size: 2rem;
   border: none;
-  background-color: #1976D2;
+  background-color: #2196F3;
   color: white;
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s;
 }
 button:hover {
-  background-color: #1976D2;
+  background-color: #2196F3;
 }
 
 .weekdays, .days {
@@ -52,6 +53,7 @@ button:hover {
 }
 
 .weekdays div {
+    letter-spacing: 1px;
   font-weight: bold;
   text-align: center;
   font-size: 1.15rem;
